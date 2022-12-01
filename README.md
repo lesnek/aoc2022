@@ -3,9 +3,18 @@
 [![Python tests](https://github.com/lesnek/aoc2022/actions/workflows/python-test.yml/badge.svg)](https://github.com/lesnek/aoc2022/actions/workflows/python-test.yml)
 [![Ruby tests](https://github.com/lesnek/aoc2022/actions/workflows/ruby-test.yml/badge.svg)](https://github.com/lesnek/aoc2022/actions/workflows/ruby-test.yml)
 ---
+It is the Month in the year <3, I want to try multiple languages with main goal to finish it!
 ### Day1
 
-🐍 Python: part1 - ✅, part2 - ✅
-💎 Ruby: part1 - ✅, part2 - ✅
+| Language  | Part 1 | Part 2 |
+|-----------|--------|--------|
+| 🐍 Python | ✅      | ✅      |
+| 💎 Ruby   | ✅      | ✅      |
+
+---
+
+### Day2
+
+TBA
 
 ---
