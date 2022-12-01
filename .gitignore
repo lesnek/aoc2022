@@ -201,3 +201,4 @@ venv*
 .python-version
 
 Gemfile.lock
+Cargo.lock
