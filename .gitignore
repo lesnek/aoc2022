@@ -199,3 +199,5 @@ venv/
 venv*
 
 .python-version
+
+Gemfile.lock
