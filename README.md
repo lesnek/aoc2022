@@ -13,10 +13,19 @@ It is the Month in the year <3, I want to try multiple languages with main goal 
 | 💎 Ruby   | ✅      | ✅      |
 | 🦀 Rust   | ✅      | ✅      |
 
-
 ---
 
 ### Day2
+
+| Language  | Part 1 | Part 2 |
+|-----------|--------|--------|
+| 🐍 Python | ✅      | ✅      |
+| 💎 Ruby   | ❌      | ❌      |
+| 🦀 Rust   | ❌      | ❌      |
+
+---
+
+### Day3
 
 TBA
 
