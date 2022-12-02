@@ -10,13 +10,13 @@ class Elf
     end
 end
 
-def day1(data)
+def solution1_1(data)
     elves = get_elves_with_calories(data)
     calories = convert_to_calories(elves)
     return calories.max
 end
 
-def day1_2(data)
+def solution1_2(data)
     elves = get_elves_with_calories(data)
     calories = convert_to_calories(elves)
     return get_sum_of_top_3(calories)
@@ -53,5 +53,5 @@ def parse_input(path)
     return file.readlines
 end
 
-puts "Maximum calories for one elf is: %d" % day1(parse_input("../../inputs/day1.txt"))
-puts "Sum of top three calories per elf is: %d" % day1_2(parse_input("../../inputs/day1.txt"))
+puts "Maximum calories for one elf is: %d" % solution1_1(parse_input("../../inputs/day1.txt"))
+puts "Sum of top three calories per elf is: %d" % solution1_2(parse_input("../../inputs/day1.txt"))

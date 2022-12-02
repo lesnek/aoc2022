@@ -62,5 +62,5 @@ def solution2(data: list[str]) -> int:
 
 if __name__ == "__main__":
     print("Day2")
-    solution1(parse_input("../../inputs/day2.txt"))
-    solution2(parse_input("../../inputs/day2.txt"))
+    print(f"Score exploited is: {solution1(parse_input('../../inputs/day2.txt'))}")
+    print(f"Planned score is: {solution2(parse_input('../../inputs/day2.txt'))}")
