@@ -21,7 +21,7 @@ It is the Month in the year <3, I want to try multiple languages with main goal 
 |-----------|--------|--------|
 | 🐍 Python | ✅      | ✅      |
 | 💎 Ruby   | ✅      | ✅      |
-| 🦀 Rust   | ❌      | ❌      |
+| 🦀 Rust   | ✅      | ✅      |
 
 ---
 
