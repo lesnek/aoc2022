@@ -19,7 +19,7 @@ class Weapons
     WEAPONS = Hash["A" => ROCK, "B" => PAPER, "C" => SCISSORS, "X" => ROCK, "Y" => PAPER, "Z" => SCISSORS]
 end
 
-def solution1(data)
+def solution2_1(data)
     total_score = 0
     data.each do |line|
         oponent, me = line.strip().split(" ")
@@ -36,7 +36,7 @@ def solution1(data)
     return total_score
 end
 
-def solution2(data)
+def solution2_2(data)
     total_score = 0
     data.each do |line|
         oponent, outcome = line.strip().split(" ")
@@ -58,5 +58,5 @@ def parse_input(path)
     return file.readlines
 end
 
-puts "Score exploited is: %d" % solution1(parse_input("../../inputs/day2.txt"))
-puts "Planned score is: %d" % solution2(parse_input("../../inputs/day2.txt"))
+puts "Score exploited is: %d" % solution2_1(parse_input("../../inputs/day2.txt"))
+puts "Planned score is: %d" % solution2_2(parse_input("../../inputs/day2.txt"))
