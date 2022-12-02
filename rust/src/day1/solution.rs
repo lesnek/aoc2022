@@ -2,12 +2,12 @@ struct Elf {
     calories: u32,
 }
 
-pub fn day1(data: Vec<String>) -> u32 {
+pub fn solution1(data: Vec<String>) -> u32 {
     let elves = get_elves_with_calories(data);
     elves.into_iter().map(|elf| elf.calories).max().unwrap()
 }
 
-pub fn day1_2(data: Vec<String>) -> u32 {
+pub fn solution2(data: Vec<String>) -> u32 {
     let elves = get_elves_with_calories(data);
     let mut cals = elves
         .into_iter()
@@ -35,7 +35,7 @@ fn get_elves_with_calories(data: Vec<String>) -> Vec<Elf> {
 #[test]
 fn test_solution1() {
     assert_eq!(
-        day1(vec!["1".to_string(), "".to_string(), "2".to_string()]),
+        solution1(vec!["1".to_string(), "".to_string(), "2".to_string()]),
         2
     );
 }
@@ -43,7 +43,7 @@ fn test_solution1() {
 #[test]
 fn test_solution2() {
     assert_eq!(
-        day1_2(vec![
+        solution2(vec![
             "1".to_string(),
             "".to_string(),
             "2".to_string(),
