@@ -20,7 +20,7 @@ It is the Month in the year <3, I want to try multiple languages with main goal 
 | Language  | Part 1 | Part 2 |
 |-----------|--------|--------|
 | 🐍 Python | ✅      | ✅      |
-| 💎 Ruby   | ❌      | ❌      |
+| 💎 Ruby   | ✅      | ✅      |
 | 🦀 Rust   | ❌      | ❌      |
 
 ---
