@@ -1,10 +1,7 @@
 import dataclasses
 import enum
 
-
-def parse_input(input_path: str) -> list[str]:
-    with open(input_path, "r+") as file:
-        return file.readlines()
+from python.read import parse_lines
 
 
 @dataclasses.dataclass
@@ -62,5 +59,5 @@ def solution2(data: list[str]) -> int:
 
 if __name__ == "__main__":
     print("Day2")
-    print(f"Score exploited is: {solution1(parse_input('../../inputs/day2.txt'))}")
-    print(f"Planned score is: {solution2(parse_input('../../inputs/day2.txt'))}")
+    print(f"Score exploited is: {solution1(parse_lines('../../inputs/day2.txt'))}")
+    print(f"Planned score is: {solution2(parse_lines('../../inputs/day2.txt'))}")
