@@ -28,6 +28,16 @@ It is the Month in the year <3, I want to try multiple languages with main goal 
 
 ### Day3
 
+| Language  | Part 1   | Part 2   |
+|-----------|----------|----------|
+| 🐍 Python | ✅        | ✅        |
+| 💎 Ruby   | ❌...lazy | ❌...lazy |
+| 🦀 Rust   | ❌...lazy | ❌...lazy |
+
+---
+
+### Day4
+
 | Language  | Part 1 | Part 2 |
 |-----------|--------|--------|
 | 🐍 Python | ✅      | ✅      |
@@ -36,7 +46,7 @@ It is the Month in the year <3, I want to try multiple languages with main goal 
 
 ---
 
-### Day4
+### Day5
 
 TBA
 
