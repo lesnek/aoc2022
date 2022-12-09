@@ -88,6 +88,16 @@ It is the Month in the year <3, I want to try multiple languages with main goal 
 
 ### Day9
 
+| Language  | Part 1 | Part 2 |
+|-----------|--------|--------|
+| 🐍 Python | ✅      | ✅      |
+| 💎 Ruby   | ❌      | ❌      |
+| 🦀 Rust   | ❌      | ❌      |
+
+---
+
+### Day10
+
 TBA
 
 ---
