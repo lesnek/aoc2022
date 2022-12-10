@@ -67,7 +67,7 @@ def solution2(data: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    print("Day8")
+    print("Day9")
     print(
         f"Tail visited at least once: {solution1(parse_lines('../../inputs/day9.txt'))}"
     )
