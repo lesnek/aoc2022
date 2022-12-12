@@ -54,7 +54,7 @@ def solution2(data: list[str]) -> str:
     result = []
 
     for i in range(0, len(score), 40):
-        result.append(score[i: i + 40])
+        result.append(score[i : i + 40])
     return "\n".join(result)
 
 
@@ -64,6 +64,5 @@ if __name__ == "__main__":
         f"Sum of signal strengths: {solution1(parse_lines('../../inputs/day10.txt'))}"
     )
     print("\n========== CRT boop beep poob ===========\n")
-    print(solution2(parse_lines('../../inputs/day10.txt')))
+    print(solution2(parse_lines("../../inputs/day10.txt")))
     print("\n=========================================\n")
-
